@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+       <listener class-name="com.fb.qa.extentreportlistner.TestNG_Listener"/>
+    </listeners>
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="com.fb.qa.testcase.HomePageTest"/>
+            <class name="com.fb.qa.testcase.LoginPageTest"/>
+            <class name="com.fb.qa.testcase.MenuPageTestCase"/>
+            <class name="com.fb.qa.testcase.ProfilePageTest"/>
+            <class name="com.fb.qa.testcase.SettingPageTestCase"/>
+            <class name="com.fb.qa.testcase.SignUpTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
